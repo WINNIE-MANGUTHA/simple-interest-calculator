@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_marginRight="11dp"
+                android:layout_marginLeft="11dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/number_one"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+            <EditText
+                android:id="@+id/txtPrinciple"
+                android:layout_width="200dp"
+                android:inputType="numberDecimal"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="25dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_marginRight="11dp"
+                android:layout_marginLeft="11dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/number_two"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+            <EditText
+                android:id="@+id/txtRate"
+                android:layout_width="200dp"
+                android:inputType="numberDecimal"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="55dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_marginRight="11dp"
+                android:layout_marginLeft="11dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/text_Time"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+            <EditText
+                android:id="@+id/txtTime"
+                android:layout_width="200dp"
+                android:inputType="numberDecimal"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="55dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_calculate"
+                android:textSize="20sp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txtResult"
+                    android:textAlignment="center"
+                    android:text="@string/number_result"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_centerInParent="true"
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

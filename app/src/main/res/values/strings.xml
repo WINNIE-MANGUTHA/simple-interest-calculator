@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="number_one">Principle</string>
+    <string name="number_two">Rate</string>
+    <string name="text_Time">Time</string>
+    <string name="button_multiplication">X</string>
+    <string name="button_minus">-</string>
+    <string name="button_divide">/</string>
+    <string name="button_addition">+</string>
+    <string name="button_equals">=</string>
+    <string name="button_calculate">Calculate Interest</string>
+    <string name="number_result">Result</string>
+</resources>
