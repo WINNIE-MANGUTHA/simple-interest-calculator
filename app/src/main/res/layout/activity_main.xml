@@ -95,7 +95,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
             <Button
                 android:id="@+id/btnResult"
@@ -103,6 +103,22 @@
                 android:layout_height="wrap_content"
                 android:text="@string/button_calculate"
                 android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/btnRetrieve"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_retrieve"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_clear"
+                android:textSize="20sp"/>
+
+
 
 
         </LinearLayout>

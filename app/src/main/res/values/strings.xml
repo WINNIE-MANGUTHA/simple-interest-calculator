@@ -8,6 +8,8 @@
     <string name="button_divide">/</string>
     <string name="button_addition">+</string>
     <string name="button_equals">=</string>
+    <string name="button_retrieve">Retrieve</string>
+    <string name="button_clear">Clear</string>
     <string name="button_calculate">Calculate Interest</string>
     <string name="number_result">Result</string>
 </resources>
